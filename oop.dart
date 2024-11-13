@@ -25,6 +25,11 @@ class car {
   }
 }
 
+class MyDetails {
+  String name = "Unknown";
+  int age = 0;
+}
+
 void main() {
   // Creating an object of the car class
   car myCar = car("Toyota", "Corolla");
