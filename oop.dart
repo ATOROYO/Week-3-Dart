@@ -31,6 +31,15 @@ class car {
 //   int age = 0;
 // }
 
+// 4. Parameterized constructor
+class MyDetails {
+  String name;
+  int age;
+
+  // Parameterized constructor
+  MyDetails(this.name, this.age);
+}
+
 void main() {
   // Creating an object of the car class
   car myCar = car("Toyota", "Corolla");
