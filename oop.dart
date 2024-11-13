@@ -25,6 +25,7 @@ class car {
   }
 }
 
+// 3. Default constructor
 class MyDetails {
   String name = "Unknown";
   int age = 0;
