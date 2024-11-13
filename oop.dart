@@ -26,10 +26,10 @@ class car {
 }
 
 // 3. Default constructor
-class MyDetails {
-  String name = "Unknown";
-  int age = 0;
-}
+// class MyDetails {
+//   String name = "Unknown";
+//   int age = 0;
+// }
 
 void main() {
   // Creating an object of the car class
