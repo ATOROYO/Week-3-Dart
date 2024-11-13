@@ -14,4 +14,13 @@
 // }
 
 // 2. Declaring a simple class in dart
+class car {
+  String brand;
+  String model;
 
+  car(this.brand, this.model);
+
+  void showDetails() {
+    print("Brand: $brand, Model: $model");
+  }
+}
