@@ -1,4 +1,4 @@
-// 1. Declaring a class in dart
+// 1. DECLARING A CLASS IN DART
 // class person {
 //   // Properties of the class
 //   String name;
