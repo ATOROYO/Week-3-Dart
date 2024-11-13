@@ -13,7 +13,7 @@
 //   }
 // }
 
-// 2. Declaring a simple class in dart
+// DECLARING A SIMPLE CLASS IN DART
 class car {
   String brand;
   String model;
