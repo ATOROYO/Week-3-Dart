@@ -48,8 +48,10 @@ void main() {
   myCar.showDetails();
 
   // Calling my details
-  MyDetails myDetails = MyDetails();
-  print("Name: ${myDetails.name}, Age: ${myDetails.age}");
+  // MyDetails myDetails = MyDetails();
+  // print("Name: ${myDetails.name}, Age: ${myDetails.age}");
 
   // Calling Parameterized constructor
+  MyDetails myDetails = MyDetails("Allan", 25);
+  // print("Name: ${myDetails.name}, Age: ${myDetails.age}");
 }
