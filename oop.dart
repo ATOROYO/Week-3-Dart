@@ -36,4 +36,8 @@ void main() {
 
   // Calling the method using the object
   myCar.showDetails();
+
+  // Calling my details
+  MyDetails myDetails = MyDetails();
+  print("Name: ${myDetails.name}, Age: ${myDetails.age}");
 }
