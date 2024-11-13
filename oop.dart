@@ -24,3 +24,11 @@ class car {
     print("Brand: $brand, Model: $model");
   }
 }
+
+void main() {
+  // Creating an object of the car class
+  car myCar = car("Toyota", "Corolla");
+
+  // Calling the method using the object
+  myCar.showDetails();
+}
