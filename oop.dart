@@ -31,7 +31,7 @@ class car {
 //   int age = 0;
 // }
 
-// 4. Parameterized constructor
+// 4. PARAMETERIZED CONSTRUCTOR
 class MyDetails {
   String name;
   int age;
@@ -48,10 +48,10 @@ void main() {
   myCar.showDetails();
 
   // Calling my details
-  // MyDetails myDetails = MyDetails();
-  // print("Name: ${myDetails.name}, Age: ${myDetails.age}");
+  MyDetails myDetails = MyDetails();
+  print("Name: ${myDetails.name}, Age: ${myDetails.age}");
 
   // Calling Parameterized constructor
-  MyDetails myDetails = MyDetails("Allan", 25);
-  print("Name: ${myDetails.name}, Age: ${myDetails.age}");
+  MyDetails myDetails2 = MyDetails("Allan", 25);
+  print("Name: ${myDetails2.name}, Age: ${myDetails2.age}");
 }
