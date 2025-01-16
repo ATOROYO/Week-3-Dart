@@ -26,10 +26,10 @@ class car {
 }
 
 // // 3. DEFAULT CONSTRUCTOR
-class MyDetails {
-  String name = "Unknown";
-  int age = 0;
-}
+// class MyDetails {
+//   String name = "Unknown";
+//   int age = 0;
+// }
 
 // 4. PARAMETERIZED CONSTRUCTOR
 class MyDetails {
