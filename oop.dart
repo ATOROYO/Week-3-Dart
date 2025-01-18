@@ -5,7 +5,7 @@
 //   int age;
 
 //   // Constructor
-person(this.name, this.age);
+// person(this.name, this.age);
 
 //   // Method to display person details
 //   void displayInfo() {
